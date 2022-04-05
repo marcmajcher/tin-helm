@@ -1,6 +1,17 @@
 import { atom } from 'recoil';
+import { gamedata } from './gamedata';
 
-export const character = atom({
+export const a_gameData = atom({
+  key: 'GameData',
+  default: gamedata,
+});
+
+export const a_gameState = atom({
+  key: 'GameState',
+  default: 'attract',
+});
+
+export const a_character = atom({
   key: 'Class',
   default: {
     class: '',
@@ -12,12 +23,12 @@ export const character = atom({
   },
 });
 
-export const dungeonLevel = atom({
+export const a_dungeonLevel = atom({
   key: 'DungeonLevel',
   default: '1',
 });
 
-export const enemyHP = atom({
+export const a_enemyHP = atom({
   key: 'EnemyHP',
   default: '0',
 });

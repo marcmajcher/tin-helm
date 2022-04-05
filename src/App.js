@@ -1,16 +1,21 @@
 import './App.css';
-import { testAtom } from './atoms';
 import { useRecoilValue } from 'recoil';
-import TestButton from './TestButton';
+import { a_gameState } from './atoms';
+import StartButton from './StartButton';
+import ChooseRace from './ChooseRace';
 
 function App() {
-  const test = useRecoilValue(testAtom);
+  const gameState = useRecoilValue(a_gameState);
+
+  const stateMap = {
+    attract: <StartButton />,
+    'choose-race': <ChooseRace />,
+  };
 
   return (
-    <div>
-      <h1>heya</h1>
-      <p>Value: {test}</p>
-      <TestButton />
+    <div className="container">
+      <h1>Tin Helm</h1>
+      <section>{stateMap[gameState]}</section>
     </div>
   );
 }
