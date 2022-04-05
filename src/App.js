@@ -3,6 +3,8 @@ import { useRecoilValue } from 'recoil';
 import { a_gameState } from './atoms';
 import StartButton from './StartButton';
 import ChooseRace from './ChooseRace';
+import ChooseClass from './ChooseClass';
+import Character from './Character';
 
 function App() {
   const gameState = useRecoilValue(a_gameState);
@@ -10,6 +12,8 @@ function App() {
   const stateMap = {
     attract: <StartButton />,
     'choose-race': <ChooseRace />,
+    'choose-class': <ChooseClass />,
+    character: <Character />,
   };
 
   return (

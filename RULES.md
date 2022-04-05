@@ -49,7 +49,7 @@ Choose one Race card and one Class card. (Some races/classes are on the same car
 
 Determine your starting Health and Energy by combining the ❤️ and ⚡️ values on the Class and Race cards, and set up the Health and Energy trackers. During play, your health and energy may never exceed these starting values. Take a moment to read your special ability and trappings effects.
 
-Check to see if your adventurer starts with any 🍖food and set the appropriate value (1 or 0) on the food tracker. You may never have more than 5 food. On the bottom of your class card you will find your starting Trappings. Locate these cards and place them next to your adventurer race/class cards. 
+Check to see if your adventurer starts with any 🍖food and set the appropriate value (1 or 0) on the food tracker. You may never have more than 5 food. On the bottom of your class card you will find your starting Trappings. Locate these cards and place them next to your adventurer race/class cards. You start with zero Favor.
 
 Lastly, get your two dice ready, and place the reference cards, enemy deck, and loot deck dearby. Shuffle the duneon cards and place them with the map sides facing up.
 

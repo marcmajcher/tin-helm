@@ -1,6 +1,7 @@
 export const gamedata = {
   races: {
     human: {
+      id: '001',
       name: 'Human',
       health: 9,
       energy: 7,
@@ -10,6 +11,7 @@ export const gamedata = {
       reverse: 'alchemist',
     },
     gnome: {
+      id: '002',
       name: 'Gnome',
       health: 6,
       energy: 9,
@@ -19,6 +21,7 @@ export const gamedata = {
       reverse: 'marauder',
     },
     kroling: {
+      id: '003',
       name: 'Kroling',
       health: 8,
       energy: 8,
@@ -28,6 +31,7 @@ export const gamedata = {
       reverse: 'footpad',
     },
     merfolk: {
+      id: '004',
       name: 'Merfolk',
       health: 7,
       energy: 8,
@@ -39,6 +43,7 @@ export const gamedata = {
   },
   classes: {
     alchemist: {
+      id: '011',
       name: 'Alchemist',
       health: 3,
       energy: 4,
@@ -48,6 +53,7 @@ export const gamedata = {
       trappings: ['books', 'potion'],
     },
     marauder: {
+      id: '012',
       name: 'Marauder',
       health: 5,
       energy: 2,
@@ -57,6 +63,7 @@ export const gamedata = {
       trappings: ['axe', 'bedroll'],
     },
     footpad: {
+      id: '013',
       name: 'Footpad',
       health: 3,
       energy: 3,
@@ -66,6 +73,7 @@ export const gamedata = {
       trappings: ['dagger', 'toolkit'],
     },
     parson: {
+      id: '014',
       name: 'Parson',
       health: 4,
       energy: 3,

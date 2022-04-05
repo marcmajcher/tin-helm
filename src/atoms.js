@@ -12,14 +12,16 @@ export const a_gameState = atom({
 });
 
 export const a_character = atom({
-  key: 'Class',
+  key: 'Character',
   default: {
-    class: '',
+    klass: '',
     race: '',
     health: 0,
     energy: 0,
     food: 0,
     favor: 0,
+    trappings: [],
+    loot: [],
   },
 });
 
