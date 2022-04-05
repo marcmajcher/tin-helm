@@ -59,9 +59,77 @@ Tin Helm is played in rounds called "levels", and each level is made up of six t
 
 ### Turn Sequence
 
+Look at the top card of the dungeon deck and decide if you want to resolve this room, or skip it. Note the icons on the card, as they will give you an idea of what's in the room.
 
+Resolve: Put the top card to the side of the deck, and flip over the next card to the results side. This creates the room. Resolve the icons corresponding to the room in order, according to the results card.
 
-## Cards
+Skip: The same procedure, but the top card is flipped and used for the results table, and the next card is used as is, looking up the icons and resolving them in order.
+
+Each room requires two cards—there are twelve cards in the deck, so each level will contain six rooms. 
+
+The six different types of icons in the rooms are:
+
+* Enemy: Find the enemy card for the specified enemy you're fighting, and engage in combat.
+* Trap: Check the result card to determine how much damage (health or energy) you take.
+* Random: Resolve the enemy, trap, or loot as shown, or refer to the reference cards for details on the Altar, Campsite, Grove, Labyrinth,Pigman, and Shrine.
+* Loot: Refer to the loot card for the displayed result and place it by your character. If you find a Mimic, engage it in combat.
+Campsite: You may either rest (gaining 2 health and 1 energy) or forage for food (gaining 1 food).
+Water: You can always fish for food in water. Roll 1 die—if the result is a 5 or 6, you gain 1 food.
+
+## Combat
+
+When you enter combat, locate the enemy card for the enemy you're fighting. Take note of their special power.
+
+**Health**: To determine the enemy's health, add the ❤️ value on the enemy card to the current dungeon level. Use the enemy HP tracker to keep track of the enemy's health.
+
+**Attack**: The value next to the dagger icon is the extra damage this enemy will inflict if they successfully hit.
+
+**Defense**: Subtract the number next to the shield icon from your attacks.
+
+**Favor**: If you defeat the enemy, gain favor equal to the value next to the ankh icon.
+
+If an enemy has a skull icon in the bottom right corner, that enemy is undead. (The Skelepede, Doom Skull, and Wraith.)
+
+In combat, you always get to attack first, unless an enemy's special power says otherwise. Before you roll for an attack, decide how much energy you wish to expend on your attack. Each class has one, two, and three bolts with numbers—the more energy you spend, the more damage you do. If you have zero energy (or if you choose), you may simply deal 1 damage that your foe cannot defend against.
+
+Once you have spent the energy to attack, roll both dice. Subtract the lower die from the higher one to determine your raw attack value—add your energy bonus to determine your total damage. Doubles always miss and deal zero damage, regardless of the energy bonus. 
+
+If the enemy has any defense, subtract that from your damage, then subtract the remaining damage from the enemy's health track. If the enemy's health is reduced to zero, you win the combat and gain favor as indicated on their card. If you fail to defeat them, they get to attack you! 
+
+Enemies attack by rolling the dice, as well. Doubles are still a miss—otherwise, subtract the lower die from the higher one and add the enemy's attack bonus. If you have a shield, you may subtract 1 damage from the enemy's attack. Reduce your health by the amount of damage dealth—if you are alive, you may attack again. If you have reached zero health, you are dead and the game ends. Combat continues back and forth until one of you dies.
+
+## Ending a Level
+
+When you have worked your way through all six rooms, you descend to the next dungeon level. Follow these steps:
+
+1. Move the level tracker one level down. If you complete the fifth level, you lose.
+2. Feed your hero by consuming 1 food. If you have no food, suffer 3 damage to your health from hunger.
+3. Shuffle the dungeon deck to create a new pile of cards, room side up, to form the next level of the dungeon. Explore away!
+
+### Food and Shards
+
+You can locate shards in the following ways:
+
+1. By defeating a possessor.
+2. By finding a shrine.
+3. By trading a turnip to the Pigman.
+4. By having enough favor when you locate an altar.
+5. By finding one as Loot.
+
+## Ending the Game
+
+As soon as you gain your third Shard, the game ends, and the curse is lifted. You are victorious!
+
+If at any point you run out of health or complete the 5th level of the dungeon, you lose.
+
+### Scoring
+
+* 10 Points for each Shard
+* Points equal to the sum of your health, energy, and food.
+* 2 points for each Favor.
+* Subtract double the value of your ending dungeon level.
+
+## Cards Reference
 
 ### Trappings
 
@@ -161,7 +229,7 @@ Waterfall: Random/Water
   
   When you defeat a dark rat, you gain 1 food. Yummy!
 
-* Doom Skull ❤️4 🗡0 🛡0 ☥1
+* Doom Skull 💀 ❤️4 🗡0 🛡0 ☥1
 
   The doom skull always attacks first.
 
@@ -173,7 +241,7 @@ Waterfall: Random/Water
   
   When you defeat a possessor, you gain 1 shard
 
-* Skelepede ❤️3 🗡0 🛡1 ☥1
+* Skelepede 💀 ❤️3 🗡0 🛡1 ☥1
 
   Skelepedes do not miss when they attack. They always re-roll doubles.
 
@@ -185,7 +253,7 @@ Waterfall: Random/Water
 
   You lose 1 energy before combat begins when fighting a Watcher.
 
-* Wraith ❤️5 🗡1 🛡0 ☥2
+* Wraith 💀 ❤️5 🗡1 🛡0 ☥2
 
   You lose 1 favor every time the wraith successfully hits during combat.
 
